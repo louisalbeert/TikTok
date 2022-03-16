@@ -1,0 +1,47 @@
+body{
+    background: #4949cf;
+}
+.pokeball{
+    position: relative;
+    width: 20rem;
+    height: 20rem;
+    background: #fff;
+    border-radius: 50%;
+    margin: auto;
+    top: 150px;
+}
+.pokeball::before{
+    content: '';
+    width: 20rem;
+    height: 10rem;
+    background: #ff1c1c;
+    border-radius: 10rem 10rem 0 0;
+    position: absolute;
+}
+.bolita{
+    width: 20rem;
+    height: 1rem;
+    background: #333;
+    margin-top: 9.6rem;
+    position: absolute;
+}
+.bolita::before{
+    content: '';
+    width: 6rem;
+    height: 6rem;
+    background: #333;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -2.2rem;
+    margin-left: 7rem;
+}
+.bolita::after{
+    content: '';
+    width: 3.6rem;
+    height: 3.6rem;
+    background: #fff;
+    border-radius: 50%;
+    margin-top: -1rem;
+    margin-left: 8.2rem;
+    position: absolute;
+}
